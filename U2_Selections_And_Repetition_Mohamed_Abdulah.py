@@ -87,7 +87,7 @@ while True:
         print("Invalid category. Try again.")
         continue
 
-    # Show the question
+
     print( question)
 
     for i in range(len(options)):
@@ -103,7 +103,7 @@ while True:
 
     max_score += 10
 
-    again = input("\nDo you want to play again? (yes/no): ")
+    again = input("Do you want to play again? (yes/no): ")
     if again.lower() != "yes":
         break
 
